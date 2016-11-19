@@ -1,0 +1,58 @@
+---
+layout: post
+title: Creating a Notification Badge with HTML5 and CSS3
+date: 2012-01-11 13:09:33.000000000 -06:00
+categories:
+- CSS3
+- HTML5
+- Tutorials
+tags:
+- css attr function
+- css3
+- data- attribute
+- html5
+- notification badge
+meta:
+  dsq_thread_id: '832225713'
+---
+<p>I recently wanted to add a notification badge to a website. I wasn&#39;t sure what the best approach was, but I knew I didn&#39;t want to add extra markup and position it with CSS. I also didn&#39;t want to use a jQuery plugin to add this little feature.</p>
+<p>I ultimately decided to use the HTML5 <a href="http://www.whatwg.org/specs/web-apps/current-work/multipage/elements.html#custom-data-attribute">data-</a> attribute with the CSS <a href="https://developer.mozilla.org/en/CSS/attr">attr()</a> function. It works in most browsers including IE 8+ which was good enough for me because it wasn&#39;t a required feature on the site.</p>
+<h2>The HTML</h2>
+<pre><code class="html">&lt;ol&gt;
+  &lt;li&gt;
+    &lt;a data-notifications=&quot;10&quot; class=&quot;button&quot; href=&quot;#&quot;&gt;New Comments on Your Posts&lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;a class=&quot;button&quot; href=&quot;#&quot;&gt;Number of Post Likes :)&lt;/a&gt;
+  &lt;/li&gt;
+&lt;ol&gt;
+</code></pre>
+<p>All the magic is in the <code>data-notifications</code> attribute. It&#39;s really easy to add to any element and can be easily grabbed with CSS.</p>
+<h2>The CSS</h2>
+<pre><code class="css">/* make sure the element has position: relative */
+[data-notifications] {
+  position: relative;
+}
+
+/* append the notification badge after it */
+[data-notifications]:after {
+
+  /* the burger */
+  content: attr(data-notifications);
+
+  /* the fries */
+  position: absolute;
+  background: red;
+  border-radius: 50%;
+  display: inline-block;
+  padding: 0.3em;
+  color: #f2f2f2;
+  right: -15px;
+  top: -15px;   
+}
+</code></pre>
+<p>This is a great example of why I love the simplicity of CSS. The seemingly complex idea of appending the <code>data-notifications</code> value is actually really simple. Most of the CSS is just making it look good.</p>
+<h2>The Demo</h2>
+<p>
+<pre class="codepen" data-height="300" data-type="result" data-href="eCFId" data-user="BaylorRae" data-safe="true"><code></code><a href="http://codepen.io/BaylorRae/pen/eCFId">Check out this Pen!</a></pre>
+<p><script async src="http://codepen.io/assets/embed/ei.js"></script></p>

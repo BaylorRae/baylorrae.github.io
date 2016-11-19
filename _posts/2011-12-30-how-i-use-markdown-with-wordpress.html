@@ -1,0 +1,40 @@
+---
+layout: post
+title: How I use Markdown with WordPress
+date: 2011-12-30 10:57:23.000000000 -06:00
+categories:
+- PHP
+- Rack App
+- Tutorials
+- WordPress
+tags:
+- curl
+- heroku
+- markdown
+- php
+- rack
+- redcarpet
+- sinatra
+- wordpress
+meta:
+  dsq_thread_id: '834270216'
+---
+<p>I love writing stuff in <a href="http://daringfireball.net/projects/markdown/">Markdown</a>. But when I decided to write my blog posts in <acronym title="Markdown">MD</acronym> I wanted to have the same <a href="http://github.github.com/github-flavored-markdown/">syntax as GitHub</a>. In particular fenced code blocks.</p>
+<p>There are a lot of plugins for WordPress to use <acronym title="Markdown">MD</acronym>, but most of them were too complicated for my liking. And they didn't support GitHub's syntax. So I ended up writing a small <a href="http://en.wikipedia.org/wiki/Rack_(web_server_interface)">Rack app</a> with <a href="http://www.sinatrarb.com/">Sinatra</a> that uses <a href="https://github.com/tanoku/redcarpet">Redcarpet</a> to parse my blog posts.</p>
+<h2>The rundown</h2>
+<ol>
+<li>When I save a post, WP sends a POST request to my Heroku app.</li>
+<li>Heroku parses the data and returns it to WP</li>
+<li>WP saves the parsed MD into <code>post_content</code> and the raw MD into <code>post_content_filtered</code></li>
+<li>When I edit a post, WP grabs the content from <code>post_content_filtered</code> instead of <code>post_content</code></li>
+</ol>
+<h2>The Rack App</h2>
+<p>I've uploaded my <a href="https://github.com/BaylorRae/Markdown-Parser">Rack app to GitHub</a> so you can see the whole thing, but here's the important stuff.</p>
+<p>[gist id="3559768" file="parser.rb"]<br />
+<script src="https://gist.github.com/BaylorRae/3559768.js?file=parser.rb"></script></p>
+<p>As you can see the code is dead simple. It just grabs the content passed in <code>$_POST['markdown']</code> (from a PHP perspective) and returns the rendered Markdown.</p>
+<h2>Modifying WordPress</h2>
+<p>[gist id="3559768" file="functions.php"]<br />
+<script src="https://gist.github.com/BaylorRae/3559768.js?file=functions.php"></script></p>
+<p>All we do is override the functionality of WP to parse the post content before it is saved and grab the MD when we edit a post.</p>
+<p>The code probably needs to be put into a plugin so it works with all themes, but I put it into my <code>functions.php</code> file. It's also important to note that the PHP is based on Mark Jaquith's <a href="http://txfx.net/wordpress-plugins/markdown-on-save/">Markdown on Save</a>.</p>

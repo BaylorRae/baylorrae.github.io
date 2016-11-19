@@ -1,0 +1,141 @@
+---
+---
+/*
+Theme Name: baylorrae-v4
+Theme URI: http://baylorrae.com
+Author: Baylor Rae'
+Author URI: http://baylorrae.com/
+Description: V4 theme for baylorrae.com
+Version: 4
+License: you can not have ... my precious
+*/
+
+body {
+  font-family: Georgia, serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  margin-bottom: 0.1em;
+  color: #444;
+  font-family: 'Lucida Grande', sans-serif;
+  line-height: 1.5em;
+}
+
+a {
+  color: #439cdb;
+  text-decoration: none;
+  border-bottom: 1px dotted #439cdb;
+}
+
+a:hover {
+  color: #333;
+  border-bottom: 1px solid #439cdb;
+}
+
+li {
+  margin-bottom: 0.5em;
+}
+
+header code {
+  font-size: 1.4em;
+  background: #333;
+  padding: 0.4em 0.2em;
+  color: #ddd;
+  display: block;
+  text-align: center;
+}
+
+header code .domain {
+  color: #FAFF5A;
+  text-decoration: underline;
+  border-bottom: 0;
+}
+
+header code .prompt-key {
+  color: #F88832;
+}
+
+header code .variable {
+  color: #bbdb54;
+}
+
+nav {
+  margin: 1em 0 1.5em;
+}
+
+nav a {
+  color: #000;
+  margin-right: 0.8em;
+  font-size: 1.2em;
+  text-decoration: none;
+  border-bottom: 1px dotted #000;
+}
+
+nav a.sub-link {
+  font-size: 1em;
+}
+
+nav a:hover {
+  border-bottom: 1px solid #000;
+}
+
+.container {
+  max-width: 38em;
+  margin: 0 auto;
+}
+
+p {
+  margin: 0.2em 0;
+}
+
+article {
+  border-bottom: none;
+  padding: 0;
+  margin-bottom: 1.5em;
+}
+
+.excerpt,
+.content {
+  margin: 0.5em 0 2em;
+}
+
+.excerpt {
+  border-bottom: 1px dotted #ababab;
+}
+
+.excerpt p,
+.content p {
+  line-height: 1.8em;
+  margin-bottom: 0.5em;
+}
+
+.content code,
+.content pre {
+  background: #ddd;
+  padding: 0.2em;
+}
+
+.gist {
+  font-size: 0.8em;
+}
+
+@media screen and (max-width: 480px) {
+  section {
+    width: 100%;
+  }
+
+  nav {
+    text-align: center;
+  }
+
+  nav .sub-link::before {
+    content: "";
+    display: block;
+    margin-top: 10px;
+  }
+
+  nav .sub-link ~ .sub-link::before {
+    display: inline;
+  }
+}

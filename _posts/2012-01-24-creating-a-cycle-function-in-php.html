@@ -1,0 +1,29 @@
+---
+layout: post
+title: Creating a cycle() function in PHP
+date: 2012-01-24 13:56:11.000000000 -06:00
+categories:
+- PHP
+- Snippets
+tags:
+- cycle function
+- php
+- rails
+- snippet
+meta:
+  dsq_thread_id: '833881432'
+---
+<p>I love using the <code>cycle</code> helper in Rails and I've always wished PHP had something similar. But every time I created one I ran into the same problem every time. How do I use multiple cycle calls in a single loop?</p>
+<p>I happened to look at <a href="https://github.com/rails/rails/blob/196407c54f0736c275d2ad4e6f8b0ac55360ad95/actionpack/lib/action_view/helpers/text_helper.rb#L308">Rail's source code</a> and noticed it allowed a specific namespace to be set in the last parameter <code>cycle('blue', 'red', name: 'colors')</code>. This concept could be easily recreated with PHP by beginning the last argument with a colon.</p>
+<h2>The Function</h2>
+<p>[gist id="3559617" file="cycle.php"]<br />
+<script src="https://gist.github.com/BaylorRae/3559617.js?file=cycle.php"></script></p>
+<h2>Basic Usage</h2>
+<p>[gist id="3559617" file="basic_usage.php"]<br />
+<script src="https://gist.github.com/BaylorRae/3559617.js?file=basic_usage.php"></script></p>
+<h2>Custom Namespace</h2>
+<p>[gist id="3559617" file="custom_namespace.php"]</p>
+<h2>A Realistic Example</h2>
+<p>[gist id="3559617" file="example.php"]<br />
+<script src="https://gist.github.com/BaylorRae/3559617.js?file=example.php"></script></p>
+<p>This is a example of using <code>cycle</code> with the <a href="http://960.gs">960 Grid System</a>. The idea is instead of keeping up with an iterating variable (probably <code>$i</code>), you simply pass a matching number of boolean arguments to <code>cycle</code>.</p>

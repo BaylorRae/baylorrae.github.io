@@ -1,0 +1,22 @@
+---
+layout: post
+title: RSpec's `let` in C#
+date: 
+type: post
+published: false
+status: draft
+categories: []
+tags: []
+meta:
+  _edit_last: '1'
+author:
+  login: mr. pig
+  email: baylorrae@gmail.com
+  display_name: Baylor Rae'
+  first_name: Baylor
+  last_name: Rae'
+---
+<p>I recently started trying to learn TDD with C# while trying to keep as much of my favorite parts from Ruby and RSpec. When I begin this journey I didn't realize how long of a road I had in front of me, but believe it can be <em>almost</em> be done.</p>
+<p>The first task towards reaching this goal has been adding memoization without using test initializers. When defining my tests I prefer to keep all the test data in fields and properties at the top of the class. In other words, as much as possible I want to arrange my objects under test when I define their accessors.</p>
+<p>Take a look at this example. Notice that the test data is declared and assigned separately. This is a red flag for two reasons. 1) The data being tested is crammed in a single method that is 2) run and declared regardless of whether or not it is being used.</p>
+<p>&nbsp;</p>

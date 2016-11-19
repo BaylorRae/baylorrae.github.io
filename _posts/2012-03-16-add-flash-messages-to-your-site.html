@@ -1,0 +1,87 @@
+---
+layout: post
+title: Add Flash Messages to Your Site
+date: 2012-03-16 08:00:22.000000000 -05:00
+categories:
+- PHP
+- Tutorials
+tags:
+- php
+- tutorial
+- user experience
+- ux
+meta:
+  dsq_thread_id: '832224789'
+---
+<p>Flash messages are often used to give feedback to the user when an action has<br />
+taken place. Such as, when they have logged in or tried to access a page<br />
+without permission.</p>
+<h2>How it Works</h2>
+<p>Flash messages are set in <code>$_SESSION[&#39;flash_messages&#39;]</code>. At the<br />
+beginning of every page request we store them in a variable and reset the<br />
+<code>$_SESSION</code>. This gives us a chance to display the flash message, and prevents<br />
+us from accidentally displaying it twice.</p>
+<h2>The Code</h2>
+<pre><code>&lt;?php
+// make sure sessions work on the page
+session_start();
+
+class Flash {
+
+  // where all messages are stored
+  public static $messages = array();
+
+  /*
+   * A generic function to store flash messages
+   *
+   * Flash::add(&#39;notice&#39;, &#39;a message to display&#39;);
+   *
+   * @param string $name the name/id of the flash
+   * @param string $message the message to display
+   */
+  public static function add($name, $message) {
+    $_SESSION[&#39;flash_messages&#39;][$name] = $message;
+  }
+
+  /*
+   * A shortcut to Flash::add()
+   *
+   * Flash::notice(&#39;a message to display&#39;);
+   */
+  public static function __callStatic($fn, $args) {
+    call_user_func_array(array(&#39;Flash&#39;, &#39;add&#39;), array($fn, $args[0]));
+  }
+}
+
+// if $_SESSION[&#39;flash_messages&#39;] isset
+// then save them to our class
+if( isset($_SESSION[&#39;flash_messages&#39;]) ) {
+  self::$messages = $_SESSION[&#39;flash_messages&#39;];
+}
+
+// reset the session&#39;s value
+$_SESSION[&#39;flash_messages&#39;] = array();
+</code></pre>
+<p>The class&#39;s job is to provide methods for us to add new messages. The work is<br />
+done at the end where we store and reset the flash messages.</p>
+<h2>How to Use the Class</h2>
+<pre><code>&lt;?php
+
+include &#39;flash.php&#39;;
+
+// using Flash::add directly
+Flash::add(&#39;notice&#39;, &#39;Awesome job dude!&#39;);
+
+// using the alias
+Flash::alert(&#39;lol, you can<pre wp-pre-tag-1></pre>#39;t do that!&#39;);
+// calls: Flash::add(&#39;alert&#39;, &#39;lol, you can<pre wp-pre-tag-1></pre>#39;t do that!&#39;);
+</code></pre>
+<h2>Displaying Flash Messages</h2>
+<pre><code>&lt;?php include &#39;flash.php&#39;; ?&gt;
+...
+&lt;?php foreach( Flash::$messages as $id =&gt; $msg ) : ?&gt;
+  &lt;div class=&quot;flash_&lt;?php echo $id ?&gt;&quot;&gt;&lt;?php echo $msg ?&gt;&lt;/div&gt;
+&lt;?php endforeach; ?&gt;
+</code></pre>
+<p>As you can see it is very easy to display the messages and you can have them<br />
+implemented in no time at all.</p>
