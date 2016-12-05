@@ -16,7 +16,7 @@ permalink: /archives
 {% endif %}
 
   <article>
-    <h3 class="post-title">
+    <h3>
       <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
     </h3>
   </article>
