@@ -4,9 +4,10 @@
 </header>
 
 <nav>      
-  {% for my_page in site.pages %}
-    <a href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
-  {% endfor %}
-  
+  <a href="/">recent posts</a>
+  <a href="/archives">the archives</a>
+  <a href="/about-me">about me</a>
+  <a href="/contact">contact</a> 
+
   <a class="sub-link" href="{{ "/feed.xml" | absolute_url }}">rss</a>
 </nav>
