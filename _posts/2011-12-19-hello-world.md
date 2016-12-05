@@ -8,4 +8,4 @@ meta:
   dsq_thread_id: '834069652'
 ---
 
-Welcome to WordPress. This is your first post. Edit or delete it, then start blogging!
+Welcome to <strike>WordPress</strike> Jekyll. This is your first post. Edit or delete it, then start blogging!
