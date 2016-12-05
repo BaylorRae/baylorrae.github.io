@@ -12,6 +12,7 @@ tags:
 - ux
 meta:
   dsq_thread_id: '832224789'
+redirect_from: /blog/2012/03/16/add-flash-messages-to-your-site/
 ---
 
 Flash messages are often used to give feedback to the user when an action has

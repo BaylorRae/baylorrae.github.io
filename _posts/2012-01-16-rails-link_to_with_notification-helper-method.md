@@ -13,6 +13,7 @@ tags:
 - tutorial
 meta:
   dsq_thread_id: '834967715'
+redirect_from: /blog/2012/01/16/rails-link_to_with_notification-helper-method/
 ---
 
 In with my last post on [creating a notification badge][notification_badge] I showed the HTML and CSS

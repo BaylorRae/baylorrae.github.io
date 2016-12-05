@@ -15,6 +15,7 @@ tags:
 - tutorial
 meta:
   dsq_thread_id: '859641130'
+redirect_from: /blog/2012/09/25/easy-php-deployments-with-capistrano-with-shared-hosting/
 ---
 
 I wrote a Rails app that was deployed with Capistrano and I loved it. Every time

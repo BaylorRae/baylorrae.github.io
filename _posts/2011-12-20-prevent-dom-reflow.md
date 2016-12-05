@@ -12,6 +12,7 @@ tags:
 - reflow
 meta:
   dsq_thread_id: '832389611'
+redirect_from: /blog/2011/12/20/prevent-dom-reflow/
 ---
 
 Javascript is a really laid back language. You can write a script a hundred

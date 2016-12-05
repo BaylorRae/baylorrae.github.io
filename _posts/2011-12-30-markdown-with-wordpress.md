@@ -18,6 +18,7 @@ tags:
 - wordpress
 meta:
   dsq_thread_id: '834270216'
+redirect_from: /blog/2011/12/30/how-i-use-markdown-with-wordpress/
 ---
 
 I love writing stuff in [Markdown][markdown]. But when I decided to write my blog posts in

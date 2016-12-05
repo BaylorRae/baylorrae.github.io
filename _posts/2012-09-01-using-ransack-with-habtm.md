@@ -13,6 +13,7 @@ tags:
 - ransack
 meta:
   dsq_thread_id: '832222202'
+redirect_from: /blog/2012/09/01/using-ransack-with-habtm/
 ---
 
 If you're unfamiliar with [Ransack][ransack], it's basically an advanced search form

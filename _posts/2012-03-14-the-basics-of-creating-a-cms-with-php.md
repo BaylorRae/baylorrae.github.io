@@ -14,6 +14,7 @@ tags:
 - tutorial
 meta:
   dsq_thread_id: '832826303'
+redirect_from: /blog/2012/03/14/the-basics-of-creating-a-cms-with-php/
 ---
 
 When people want to build a website for someone, they usually need to create a

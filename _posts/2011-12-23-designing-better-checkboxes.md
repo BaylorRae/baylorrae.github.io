@@ -12,6 +12,7 @@ tags:
 - ux
 meta:
   dsq_thread_id: '832827350'
+redirect_from: /blog/2011/12/23/designing-better-checkboxes/
 ---
 
 When adding an `<input type="(radio|checkbox)" />` I recommend wrapping the whole thing in a label. Because it makes the clickable area bigger and allows the user to miss the text and input while getting the desired result.

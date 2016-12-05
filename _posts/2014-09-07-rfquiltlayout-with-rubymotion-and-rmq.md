@@ -15,6 +15,7 @@ tags:
 - walkthrough
 meta:
   dsq_thread_id: '2996677763'
+redirect_from: /blog/2014/09/07/rfquiltlayout-with-rubymotion-and-rmq/
 ---
 
 <img class="alignleft size-medium wp-image-594" style="float: right; margin-left: 15px; width: 148px;" src="{{ site.baseurl }}/assets/Screen-Shot-2014-09-08-at-10.24.13-AM-180x300.png" alt="RFQuiltLayout with RubyMotion and RMQ" />

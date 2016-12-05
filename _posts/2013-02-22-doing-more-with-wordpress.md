@@ -15,6 +15,7 @@ tags:
 - wordpress
 meta:
   dsq_thread_id: '1098869665'
+redirect_from: /blog/2013/02/22/doing-more-with-wordpress/
 ---
 
 This is a screencast I recorded that shows a couple of ways to get more out of

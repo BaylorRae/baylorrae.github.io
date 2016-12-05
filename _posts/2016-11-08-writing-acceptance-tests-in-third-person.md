@@ -11,6 +11,7 @@ tags:
 - tdd
 meta:
   dsq_thread_id: '5288684885'
+redirect_from: /blog/2016/11/08/writing-acceptance-tests-in-third-person/
 ---
 
 When I was learning to write acceptance tests with Cucumber everything started

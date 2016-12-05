@@ -11,6 +11,7 @@ tags:
 - tdd
 meta:
   dsq_thread_id: '5313060455'
+redirect_from: /blog/2016/11/18/user-manager/
 ---
 
 In my last post I described how to [write declarative step definitions][third_person_acceptance_tests].

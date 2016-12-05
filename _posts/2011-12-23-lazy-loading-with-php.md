@@ -7,6 +7,7 @@ categories:
 tags: []
 meta:
   dsq_thread_id: '832219427'
+redirect_from: /blog/2011/12/23/lazy-loading-with-php/
 ---
 
 I've been looking through a lot of PHP projects on GitHub lately and I keep

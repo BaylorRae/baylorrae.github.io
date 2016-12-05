@@ -29,6 +29,7 @@ github_username:  jekyll
 markdown: kramdown
 gems:
   - jekyll-feed
+  - jekyll-redirect-from
   - jekyll-sitemap
 exclude:
   - Gemfile

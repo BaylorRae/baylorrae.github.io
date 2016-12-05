@@ -14,6 +14,7 @@ tags:
 - notification badge
 meta:
   dsq_thread_id: '832225713'
+redirect_from: /blog/2012/01/11/creating-a-notification-badge-with-html5-and-css3/
 ---
 
 I recently wanted to add a notification badge to a website. I wasn't sure what

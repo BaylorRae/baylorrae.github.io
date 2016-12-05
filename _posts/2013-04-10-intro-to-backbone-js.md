@@ -14,6 +14,7 @@ tags:
 - tutorial
 meta:
   dsq_thread_id: '1201973200'
+redirect_from: /blog/2013/04/10/intro-to-backbone-js/
 ---
 
 I've been learning Backbone.js and wanted to make a video that might help others

@@ -14,6 +14,7 @@ tags:
 - tutorial
 meta:
   dsq_thread_id: '835205007'
+redirect_from: /blog/2011/12/21/php-pubsub/
 ---
 
 A little over a year ago I read a post on Nettuts+ regarding [PubSub with
