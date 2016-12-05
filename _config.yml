@@ -23,6 +23,7 @@ permalink: /:title
 url: "http://baylorrae.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: baylorrae
 github_username:  baylorrae
+google_analytics: true
 
 # Build settings
 markdown: kramdown
