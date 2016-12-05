@@ -141,6 +141,7 @@ article {
   line-height: 1.5em;
   font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
   font-size: 14px;
+  overflow: auto;
 }
 .highlight .c { color: #7C7C7C; background-color: #000000 } /* Comment */
 .highlight .err { color: #f6f3e8; background-color: #000000 } /* Error */
