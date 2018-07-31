@@ -114,7 +114,7 @@ how to represent our data to assist with training a successful neural network.
 In my opinion as of 7/30/2018, the step to successful machine learning is trying
 to replicate the our own natural ability to collect information and make
 informed decisions. Neural networks never have 100% accuracy since we are
-modeling them after ourselves and we can expect nothing more considering our our
+modeling them after ourselves and we can expect nothing more considering our
 own limitations. I find this to be an interesting dynamic that generally isn't
 shared with software development.
 
