@@ -14,7 +14,7 @@ tags:
 - shared hosting
 - tutorial
 meta:
-  dsq_thread_id: '859641130'
+  dsq_thread_id: '450 http://baylorrae.com/?p=450'
 redirect_from: /blog/2012/09/25/easy-php-deployments-with-capistrano-with-shared-hosting/
 ---
 

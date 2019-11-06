@@ -11,7 +11,7 @@ tags:
 - user experience
 - ux
 meta:
-  dsq_thread_id: '832224789'
+  dsq_thread_id: '327 http://baylorrae.com/?p=327'
 redirect_from: /blog/2012/03/16/add-flash-messages-to-your-site/
 ---
 

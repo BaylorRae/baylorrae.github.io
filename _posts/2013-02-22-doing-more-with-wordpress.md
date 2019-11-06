@@ -14,7 +14,7 @@ tags:
 - walkthrough
 - wordpress
 meta:
-  dsq_thread_id: '1098869665'
+  dsq_thread_id: '517 http://baylorrae.com/?p=517'
 redirect_from: /blog/2013/02/22/doing-more-with-wordpress/
 ---
 

@@ -14,7 +14,7 @@ tags:
 - tutorial
 - walkthrough
 meta:
-  dsq_thread_id: '2996677763'
+  dsq_thread_id: '566 http://baylorrae.com/?p=566'
 redirect_from: /blog/2014/09/07/rfquiltlayout-with-rubymotion-and-rmq/
 ---
 

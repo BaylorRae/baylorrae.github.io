@@ -17,7 +17,7 @@ tags:
 - sinatra
 - wordpress
 meta:
-  dsq_thread_id: '834270216'
+  dsq_thread_id: '179 http://baylorrae.com/?p=179'
 redirect_from: /blog/2011/12/30/how-i-use-markdown-with-wordpress/
 ---
 

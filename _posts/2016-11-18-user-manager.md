@@ -10,7 +10,7 @@ tags:
 - selenium
 - tdd
 meta:
-  dsq_thread_id: '5313060455'
+  dsq_thread_id: '652 http://baylorrae.com/?p=652'
 redirect_from: /blog/2016/11/18/user-manager/
 ---
 

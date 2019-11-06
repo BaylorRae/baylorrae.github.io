@@ -13,7 +13,7 @@ tags:
 - html5
 - notification badge
 meta:
-  dsq_thread_id: '832225713'
+  dsq_thread_id: '202 http://baylorrae.com/?p=202'
 redirect_from: /blog/2012/01/11/creating-a-notification-badge-with-html5-and-css3/
 ---
 

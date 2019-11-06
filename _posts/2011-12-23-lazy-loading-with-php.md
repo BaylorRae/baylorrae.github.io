@@ -6,7 +6,7 @@ categories:
 - PHP
 tags: []
 meta:
-  dsq_thread_id: '832219427'
+  dsq_thread_id: '147 http://baylorrae.com/?p=147'
 redirect_from: /blog/2011/12/23/lazy-loading-with-php/
 ---
 

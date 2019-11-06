@@ -11,7 +11,7 @@ tags:
 - rails
 - snippet
 meta:
-  dsq_thread_id: '833881432'
+  dsq_thread_id: '246 http://baylorrae.com/?p=246'
 redirect_from: /blog/2012/01/24/creating-a-cycle-function-in-php/
 ---
 

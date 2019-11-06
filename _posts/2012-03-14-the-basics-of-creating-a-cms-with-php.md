@@ -13,7 +13,7 @@ tags:
 - php
 - tutorial
 meta:
-  dsq_thread_id: '832826303'
+  dsq_thread_id: '275 http://baylorrae.com/?p=275'
 redirect_from: /blog/2012/03/14/the-basics-of-creating-a-cms-with-php/
 ---
 

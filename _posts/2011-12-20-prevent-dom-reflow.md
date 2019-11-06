@@ -11,7 +11,8 @@ tags:
 - prevent
 - reflow
 meta:
-  dsq_thread_id: '832389611'
+  dsq_url: 'http://baylorrae.com/blog/2011/12/20/prevent-dom-reflow/'
+  dsq_thread_id: '4 http://baylorrae.com/?p=4'
 redirect_from: /blog/2011/12/20/prevent-dom-reflow/
 ---
 

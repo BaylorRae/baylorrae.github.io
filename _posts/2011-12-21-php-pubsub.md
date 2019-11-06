@@ -13,7 +13,7 @@ tags:
 - pubsub
 - tutorial
 meta:
-  dsq_thread_id: '835205007'
+  dsq_thread_id: '36 http://baylorrae.com/?p=36'
 redirect_from: /blog/2011/12/21/php-pubsub/
 ---
 

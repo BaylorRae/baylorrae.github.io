@@ -11,7 +11,7 @@ tags:
 - user experience
 - ux
 meta:
-  dsq_thread_id: '832827350'
+  dsq_thread_id: '174 http://baylorrae.com/?p=174'
 redirect_from: /blog/2011/12/23/designing-better-checkboxes/
 ---
 

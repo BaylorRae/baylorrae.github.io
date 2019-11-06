@@ -11,7 +11,7 @@ tags:
 - php
 - script speed
 meta:
-  dsq_thread_id: '835245658'
+  dsq_thread_id: '194 http://baylorrae.com/?p=194'
 redirect_from: /blog/2012/01/09/benchmarking-php-script-speeds/
 ---
 

@@ -13,7 +13,7 @@ tags:
 - screencast
 - tutorial
 meta:
-  dsq_thread_id: '1201973200'
+  dsq_thread_id: '526 http://baylorrae.com/?p=526'
 redirect_from: /blog/2013/04/10/intro-to-backbone-js/
 ---
 

@@ -13,7 +13,8 @@ tags:
 - rails
 - ransack
 meta:
-  dsq_thread_id: '832222202'
+  dsq_url: 'http://baylorrae.com/using-ransack-with-habtm'
+  dsq_thread_id: '379 http://baylorrae.com/?p=379'
 redirect_from: /blog/2012/09/01/using-ransack-with-habtm/
 ---
 

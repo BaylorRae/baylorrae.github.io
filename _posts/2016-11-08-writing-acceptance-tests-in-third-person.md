@@ -10,7 +10,7 @@ tags:
 - selenium
 - tdd
 meta:
-  dsq_thread_id: '5288684885'
+  dsq_thread_id: '633 http://baylorrae.com/?p=633'
 redirect_from: /blog/2016/11/08/writing-acceptance-tests-in-third-person/
 ---
 

@@ -12,7 +12,7 @@ tags:
 - rails
 - tutorial
 meta:
-  dsq_thread_id: '834967715'
+  dsq_thread_id: '230 http://baylorrae.com/?p=230'
 redirect_from: /blog/2012/01/16/rails-link_to_with_notification-helper-method/
 ---
 

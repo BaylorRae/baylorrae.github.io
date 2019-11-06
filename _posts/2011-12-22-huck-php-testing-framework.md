@@ -3,7 +3,8 @@ layout: post
 title: Huck - PHP Testing Framework
 date: 2011-12-22 00:45:50.000000000 -06:00
 meta:
-  dsq_thread_id: '834069655'
+  dsq_url: 'http://baylorrae.com/huck-php-testing-framework/'
+  dsq_thread_id: '1726584'
 ---
 
 ```php
